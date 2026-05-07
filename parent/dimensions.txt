@@ -1,1 +1,8 @@
-﻿"length" = 200mm
+﻿"length" = 200mm
+"base-thickness" = "length"/20
+"holes"= 8
+"hole-spacing" = ( 200 - ( "edge" * 2 ) - "hole-length" ) / ( "holes" - 1 )
+"hole-length" = 8mm
+"edge" = ("length" *.1)
+"edge2" = ("length" - ("hole-spacing" * "holes2"))/2
+"holes2" = 6
